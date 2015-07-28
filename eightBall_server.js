@@ -18,6 +18,6 @@ var server = net.createServer(function(client){
 	})
 
 })
-server.listen({port:3000, host:"localhost"},function(){
+server.listen(function(){
 	console.log("Listening on "+port+".\r\n");
 })

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Voicemail</title>
+</head>
+<body>
+	<h1>The WDI Diana Message Board</h1>
+	<% chats.forEach(function(posts){ %>
+	<div>
+		<p>Posted by <%= posts.name %>: ID#: <%= posts.id %></p>
+		<p><%= posts.post %></p>
+	</div>
+	<% }) %>
+</body>
+</html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Leestening
 Listening on 5000.
 
@@ -12,4 +13,12 @@ Client connected
 
 User requesting /history
 User requesting /exit
+=======
+Listening on port: 2000
+Client connected
+
+User requesting history
+User requesting /history
+User requesting ����
+>>>>>>> c7fde415d855e6d73992e4f0325918383a8d4cfa
 Client disconnected
